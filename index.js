@@ -154,8 +154,6 @@ app.post('/addService',(req, res) => {
             })
 
     })
-
-  
       app.get('/', (req, res) => {
         res.send("hello from db it's working working")
     })
